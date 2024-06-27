@@ -17,8 +17,10 @@ variables:
   # Environment name
   environmentName: 'express-minimal'
 
-  # Agent VM image name
-  vmImageName: 'alexvuong-ltm'
+pool:
+  name: Default
+  demands:
+  - agent.name -equals alexvuong-lmt  
 
 stages:
 - stage: Build
