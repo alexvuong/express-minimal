@@ -18,7 +18,7 @@ variables:
   environmentName: 'express-minimal'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'alexvuong-ltm'
 
 stages:
 - stage: Build
