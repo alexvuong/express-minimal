@@ -14,7 +14,7 @@ variables:
   # Web app name
   webAppName: 'express-minimal'
 
-  # Environment name
+  # Environment name test
   environmentName: 'express-minimal'
 
 pool:
