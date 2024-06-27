@@ -20,7 +20,7 @@ variables:
 pool:
   name: Default
   demands:
-  - agent.name -equals alexvuong-lmt  
+  - agent.name -equals alexvuong-ltm
 
 stages:
 - stage: Build
